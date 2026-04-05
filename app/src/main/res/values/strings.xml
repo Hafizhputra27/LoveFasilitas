@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">AplikasiLoginSederhana</string>
+    <string name="app_name">Rental Fasilitas</string>
+
+    <!-- Login & Register -->
+    <string name="welcome_text">Selamat Datang di Rental Fasilitas</string>
+    <string name="username_hint">Masukkan Username</string>
+    <string name="password_hint">Masukkan Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="register_link">Belum punya akun? Daftar di sini</string>
+
+    <!-- Home Activity -->
+    <string name="welcome_title">Selamat Datang</string>
+    <string name="username_label">Username: </string>
+    <string name="daftar_fasilitas">Daftar Fasilitas Tersedia</string>
+
+    <!-- Fasilitas Items -->
+    <string name="fasilitas_futsal">Lapangan Futsal</string>
+    <string name="fasilitas_futsal_desc">Lapangan futsal indoor dengan standar internasional. Terdapat 2 lapangan dengan kondisi lapangan sangat baik dan terawat.</string>
+    <string name="fasilitas_futsal_price">Rp 200.000/jam</string>
+
+    <string name="fasilitas_seminar">Ruang Seminar</string>
+    <string name="fasilitas_seminar_desc">Ruang seminar berkapasitas 100 orang dengan fasilitas lengkap. Dilengkapi proyektor, sound system, dan meja kursi yang nyaman.</string>
+    <string name="fasilitas_seminar_price">Rp 500.000/jam</string>
+
+    <string name="fasilitas_proyektor">Alat Proyektor</string>
+    <string name="fasilitas_proyektor_desc">Proyektor profesional dengan resolusi 4K. Cocok untuk presentasi, meeting, dan acara-acara khusus lainnya.</string>
+    <string name="fasilitas_proyektor_price">Rp 100.000/jam</string>
+
+    <string name="fasilitas_meeting">Meeting Room</string>
+    <string name="fasilitas_meeting_desc">Ruang meeting eksklusif dengan kapasitas 20 orang. Disertai whiteboard, projector, dan WiFi unlimited.</string>
+    <string name="fasilitas_meeting_price">Rp 300.000/jam</string>
+
+    <!-- Button & Action -->
+    <string name="btn_cek_detail">Cek Detail</string>
+    <string name="btn_pesan">Pesan Sekarang</string>
+
+    <!-- Bottom Navigation -->
+    <string name="menu_home">Home</string>
+    <string name="menu_history">History</string>
+    <string name="menu_profile">Profile</string>
+
+    <!-- Register -->
+    <string name="register_title">Daftar Akun Baru</string>
+    <string name="nama_hint">Nama Lengkap</string>
+    <string name="email_hint">Email</string>
+    <string name="telepon_hint">Nomor Telepon</string>
+    <string name="password_confirm_hint">Konfirmasi Password</string>
+    <string name="gender_label">Jenis Kelamin</string>
+    <string name="btn_register">DAFTAR</string>
+    <string name="back_to_login">Sudah punya akun? Masuk di sini</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.aplikasiloginsederhana
+package com.example.lovefasilitas
 
 import android.os.Bundle
 import android.widget.*
@@ -35,21 +35,49 @@ class RegisterActivity : AppCompatActivity() {
             val password   = etPassword.text.toString().trim()
             val konfirmasi = etKonfirmasi.text.toString().trim()
 
-            // Validasi 1: semua field harus diisi
-            if (nama.isEmpty() || email.isEmpty() || telepon.isEmpty()
-                || password.isEmpty() || konfirmasi.isEmpty()) {
-                showToast("Semua field harus diisi!")
+            // Validasi 1: Nama tidak boleh kosong
+            if (nama.isEmpty()) {
+                showToast("Nama tidak boleh kosong!")
                 return@setOnClickListener
             }
 
-            // Validasi 2: jenis kelamin harus dipilih
-            // checkedRadioButtonId == -1 artinya belum ada yang dipilih
+            // Validasi 2: Email tidak boleh kosong
+            if (email.isEmpty()) {
+                showToast("Email tidak boleh kosong!")
+                return@setOnClickListener
+            }
+
+            // Validasi 3: Email format valid
+            if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                showToast("Format email tidak valid!")
+                return@setOnClickListener
+            }
+
+            // Validasi 4: Telepon tidak boleh kosong
+            if (telepon.isEmpty()) {
+                showToast("Nomor telepon tidak boleh kosong!")
+                return@setOnClickListener
+            }
+
+            // Validasi 5: Password tidak boleh kosong
+            if (password.isEmpty()) {
+                showToast("Password tidak boleh kosong!")
+                return@setOnClickListener
+            }
+
+            // Validasi 6: Konfirmasi password tidak boleh kosong
+            if (konfirmasi.isEmpty()) {
+                showToast("Konfirmasi password tidak boleh kosong!")
+                return@setOnClickListener
+            }
+
+            // Validasi 7: Jenis kelamin harus dipilih
             if (rgJenisKelamin.checkedRadioButtonId == -1) {
                 showToast("Pilih jenis kelamin terlebih dahulu!")
                 return@setOnClickListener
             }
 
-            // Validasi 3: password harus cocok
+            // Validasi 8: Password harus cocok
             if (password != konfirmasi) {
                 showToast("Password dan konfirmasi tidak sama!")
                 return@setOnClickListener
@@ -58,17 +86,13 @@ class RegisterActivity : AppCompatActivity() {
             // Semua validasi lolos
             showToast("Registrasi berhasil! Selamat datang, $nama")
 
-            // ─────────────────────────────────────────────
-            // Setelah daftar sukses, tutup halaman ini dan
-            // kembali otomatis ke halaman Login
-            // finish() = hapus RegisterActivity dari stack
-            // ─────────────────────────────────────────────
+            // Kembali ke halaman Login setelah registrasi sukses
             finish()
         }
 
         // Tombol teks "Sudah punya akun?" → kembali ke Login
         tvKembaliLogin.setOnClickListener {
-            finish() // cukup finish(), tidak perlu Intent baru
+            finish()
         }
     }
 

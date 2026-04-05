@@ -1,10 +1,10 @@
-package com.example.aplikasiloginsederhana
+package com.example.lovefasilitas
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView    // ← TAMBAHAN import
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
         tvDaftar   = findViewById(R.id.tvDaftar)
 
         btnLogin.setOnClickListener {
-
             val username = etUsername.text.toString().trim()
             val password = etPassword.text.toString().trim()
 
@@ -36,13 +35,21 @@ class MainActivity : AppCompatActivity() {
                     Toast.LENGTH_SHORT
                 ).show()
             } else {
-                Toast.makeText(
-                    this,
-                    "Anda berhasil login!",
-                    Toast.LENGTH_SHORT
-                ).show()
+                // Simple hardcoded login check for demonstration
+                if (username == "admin" && password == "admin123") {
+                    Toast.makeText(this, "Anda berhasil login!", Toast.LENGTH_SHORT).show()
+
+                    // Create Explicit Intent to HomeActivity
+                    val intent = Intent(this, HomeActivity::class.java)
+                    // Pass username data using putExtra()
+                    intent.putExtra("username", username)
+                    startActivity(intent)
+                } else {
+                    Toast.makeText(this, "Username atau Password salah!", Toast.LENGTH_SHORT).show()
+                }
             }
         }
+
         tvDaftar.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
