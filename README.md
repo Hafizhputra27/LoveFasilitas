@@ -13,3 +13,5 @@ Setiap folder mewakili satu tugas dan berisi source code lengkap dari tugas ters
 | Tugas 2 | [Lihat Repo](https://github.com/Hafizhputra27/PemrogramanMobile-Tugas2.git) |
 | Tugas 3 | [Lihat Repo](https://github.com/Hafizhputra27/PemrogramanMobile-Tugas3-241111001.git) |
 | Tugas 4 | [Lihat Repo](https://github.com/Hafizhputra27/PemrogramanMobile-Tugas4-241111001.git) |
+| Tugas 5 | [Lihat Repo](https://github.com/Hafizhputra27/PemrogramanMobile-Tugas5-241111001.git) |
+
