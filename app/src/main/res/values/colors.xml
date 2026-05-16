@@ -1,6 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base Colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="purple_500">#FF6200EE</color>
+
+    <!-- ===== MATERIAL DESIGN 3 TONAL PALETTE ===== -->
+
+    <!-- Primary (Indigo-Violet) -->
+    <color name="primary">#6366F1</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#E0E7FF</color>
+    <color name="on_primary_container">#1E1B4B</color>
+
+    <!-- Secondary (Slate) -->
+    <color name="secondary">#64748B</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#F1F5F9</color>
+    <color name="on_secondary_container">#0F172A</color>
+
+    <!-- Tertiary (Teal) -->
+    <color name="tertiary">#14B8A6</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#CCFBF1</color>
+    <color name="on_tertiary_container">#134E4A</color>
+
+    <!-- Error -->
+    <color name="error">#EF4444</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="error_container">#FEE2E2</color>
+    <color name="on_error_container">#7F1D1D</color>
+
+    <!-- Surface -->
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#0F172A</color>
+    <color name="surface_variant">#F8FAFC</color>
+    <color name="on_surface_variant">#475569</color>
+    <color name="outline">#CBD5E1</color>
+    <color name="outline_variant">#E2E8F0</color>
+
+    <!-- Background -->
+    <color name="background">#FAFAFA</color>
+    <color name="on_background">#0F172A</color>
+
+    <!-- Accent Colors -->
+    <color name="coral">#F97316</color>
+    <color name="coral_light">#FB923C</color>
+    <color name="teal">#14B8A6</color>
+    <color name="rose">#F43F5E</color>
+    <color name="amber">#F59E0B</color>
+    <color name="sky">#0EA5E9</color>
+
+    <!-- Gradient Brand -->
+    <color name="gradient_primary_start">#6366F1</color>
+    <color name="gradient_primary_mid">#8B5CF6</color>
+    <color name="gradient_primary_end">#EC4899</color>
+
+    <!-- Glass Surface Colors -->
+    <color name="glass_base">#14FFFFFF</color>
+    <color name="glass_50">#80FFFFFF</color>
+    <color name="glass_border">#40FFFFFF</color>
+    <color name="glass_highlight">#66FFFFFF</color>
+
+    <!-- Background -->
+    <color name="background_primary">#FAFAFA</color>
+    <color name="background_secondary">#F1F5F9</color>
+    <color name="overlay_dark">#990F172A</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="background_light">#FAFAFA</color>
+
+    <!-- ===== GRAY PALETTE ===== -->
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_text">#757575</color>
+
+    <!-- Semantic Colors -->
+    <color name="success">#14B8A6</color>
+    <color name="warning">#F59E0B</color>
+    <color name="info">#0EA5E9</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#E53935</color>
+
+    <!-- Skeleton / Shimmer -->
+    <color name="shimmer_highlight">#F1F5F9</color>
+    <color name="shimmer_base">#E2E8F0</color>
+
+    <!-- Category Chip Colors -->
+    <color name="chip_hall">#6366F1</color>
+    <color name="chip_room">#14B8A6</color>
+    <color name="chip_studio">#F97316</color>
+    <color name="chip_outdoor">#22C55E</color>
+
+    <!-- Legacy Aliases -->
+    <color name="primary_black">#1A1A1A</color>
+    <color name="primary_light">#818CF8</color>
+    <color name="primary_dark">#4F46E5</color>
+    <color name="accent_gold">#D4AF37</color>
+    <color name="blue_primary">#2196F3</color>
+    <color name="search_bg">#F2F2F2</color>
+    <color name="bottom_nav_inactive">#A0A6B3</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_tertiary">#94A3B8</color>
 </resources>

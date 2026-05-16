@@ -22,6 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AplikasiLoginSederhana"
+rootProject.name = "LoveFasilitas"
 include(":app")
- 

@@ -3,6 +3,10 @@ package com.example.lovefasilitas
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.lovefasilitas.ui.chat.ChatFragment
+import com.example.lovefasilitas.ui.history.HistoryFragment
+import com.example.lovefasilitas.ui.home.HomeFragment
+import com.example.lovefasilitas.ui.profile.ProfileFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {
@@ -16,23 +20,25 @@ class HomeActivity : AppCompatActivity() {
         bottomNavigation = findViewById(R.id.bottomNavigation)
 
         if (savedInstanceState == null) {
-            switchFragment(HomeFragment())
+            val homeFragment = HomeFragment()
+            val username = intent.getStringExtra(EXTRA_USERNAME) ?: "User"
+            homeFragment.arguments = Bundle().apply {
+                putString(EXTRA_USERNAME, username)
+            }
+            switchFragment(homeFragment)
             bottomNavigation.selectedItemId = R.id.menu_home
         }
 
         bottomNavigation.setOnItemSelectedListener { item ->
-            val fragment = when (item.itemId) {
+            val fragment: Fragment = when (item.itemId) {
                 R.id.menu_home -> HomeFragment()
                 R.id.menu_chat -> ChatFragment()
                 R.id.menu_history -> HistoryFragment()
                 R.id.menu_profile -> ProfileFragment()
-                else -> null
+                else -> return@setOnItemSelectedListener false
             }
-
-            fragment?.let {
-                switchFragment(it)
-                true
-            } ?: false
+            switchFragment(fragment)
+            true
         }
     }
 
@@ -40,5 +46,9 @@ class HomeActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragmentContainer, fragment)
             .commit()
+    }
+
+    companion object {
+        const val EXTRA_USERNAME = "username"
     }
 }

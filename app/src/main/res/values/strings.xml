@@ -1,41 +1,124 @@
 <resources>
-    <string name="app_name">Rental Fasilitas</string>
+    <string name="app_name">LoveFasilitas</string>
 
     <!-- Login & Register -->
-    <string name="welcome_text">Selamat Datang di Rental Fasilitas</string>
-    <string name="username_hint">Masukkan Username</string>
-    <string name="password_hint">Masukkan Password</string>
-    <string name="btn_login">LOGIN</string>
-    <string name="register_link">Belum punya akun? Daftar di sini</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue booking</string>
+    <string name="create_account_subtitle">Create your account</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="full_name_hint">Enter your full name</string>
+    <string name="email_label">Email Address</string>
+    <string name="login_email_hint">email@example.com</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="phone_hint">+62 888-0000-000</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="password_hint">••••••••</string>
+    <string name="btn_login_label">Sign In</string>
+    <string name="btn_register">Create Account</string>
+    <string name="already_member">Already have an account?</string>
+    <string name="sign_in_to_luxespace">Sign in to LoveFasilitas</string>
+    <string name="terms_service_policy">By creating an account, you agree to our Terms of Service and Privacy Policy.</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="google">Google</string>
+    <string name="apple">Apple</string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="register_label">Sign Up</string>
+
+    <!-- Greeting -->
+    <string name="greeting_hello">Halo, %1$s!</string>
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_subtitle">Find and book the perfect facility</string>
 
     <!-- Home Activity -->
-    <string name="welcome_title">Selamat Datang</string>
-    <string name="username_label">Username: </string>
-    <string name="daftar_fasilitas">Daftar Fasilitas Tersedia</string>
+    <string name="home_search_hint">Search facilities…</string>
+    <string name="home_top_facilities">Top Facilities</string>
+    <string name="home_featured_label">Featured</string>
+    <string name="home_top_facilities_subtitle">Curated selections for excellence</string>
+    <string name="home_view_all">View all</string>
+    <string name="home_book_now">Book Now</string>
+    <string name="home_discover_more">Discover More</string>
+
+    <!-- Categories -->
+    <string name="cat_all">All</string>
+    <string name="cat_hall">Hall</string>
+    <string name="cat_room">Room</string>
+    <string name="cat_studio">Studio</string>
+    <string name="cat_outdoor">Outdoor</string>
+
+    <!-- Tags -->
+    <string name="tag_premium">PREMIUM</string>
+    <string name="tag_studio">STUDIO</string>
+    <string name="tag_popular">POPULAR</string>
+    <string name="tag_new">NEW</string>
+
+    <!-- Facility Detail -->
+    <string name="label_select_date">Select Date</string>
+    <string name="label_select_duration">Select Duration</string>
+    <string name="label_duration_1h">1 Hour</string>
+    <string name="label_duration_2h">2 Hours</string>
+    <string name="label_duration_4h">4 Hours</string>
+    <string name="label_duration_full">Full Day</string>
+    <string name="label_view_more">View More Dates</string>
+    <string name="label_pricing_summary">Pricing Summary</string>
+    <string name="label_subtotal">Subtotal</string>
+    <string name="label_tax">Tax (11%)</string>
+    <string name="label_total">Total</string>
+    <string name="label_description">Description</string>
+    <string name="label_location">Location</string>
+    <string name="label_capacity">Capacity</string>
+    <string name="label_rating">Rating</string>
+    <string name="btn_continue_confirm">Continue to Confirm</string>
+
+    <!-- Booking Confirmation -->
+    <string name="title_confirm_booking">Confirm Booking</string>
+    <string name="label_booking_details">Booking Details</string>
+    <string name="label_date">Date</string>
+    <string name="label_duration">Duration</string>
+    <string name="label_price_breakdown">Price Breakdown</string>
+    <string name="label_notes_optional">Notes (Optional)</string>
+    <string name="hint_notes">Add any special requests…</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm_booking">Confirm Booking</string>
+    <string name="title_booking_success">Booking Confirmed!</string>
+    <string name="msg_booking_success">Your facility has been booked successfully.</string>
+    <string name="label_booking_id">Booking ID</string>
+    <string name="btn_back_to_home">Back to Home</string>
 
     <!-- Fasilitas Items -->
     <string name="fasilitas_futsal">Lapangan Futsal</string>
-    <string name="fasilitas_futsal_desc">Lapangan futsal indoor dengan standar internasional. Terdapat 2 lapangan dengan kondisi lapangan sangat baik dan terawat.</string>
+    <string name="fasilitas_futsal_desc">Lapangan futsal indoor dengan standar internasional.</string>
     <string name="fasilitas_futsal_price">Rp 200.000/jam</string>
-
     <string name="fasilitas_seminar">Ruang Seminar</string>
-    <string name="fasilitas_seminar_desc">Ruang seminar berkapasitas 100 orang dengan fasilitas lengkap. Dilengkapi proyektor, sound system, dan meja kursi yang nyaman.</string>
+    <string name="fasilitas_seminar_desc">Ruang seminar berkapasitas 100 orang dengan fasilitas lengkap.</string>
     <string name="fasilitas_seminar_price">Rp 500.000/jam</string>
-
     <string name="fasilitas_proyektor">Alat Proyektor</string>
-    <string name="fasilitas_proyektor_desc">Proyektor profesional dengan resolusi 4K. Cocok untuk presentasi, meeting, dan acara-acara khusus lainnya.</string>
+    <string name="fasilitas_proyektor_desc">Proyektor profesional dengan resolusi 4K.</string>
     <string name="fasilitas_proyektor_price">Rp 100.000/jam</string>
-
     <string name="fasilitas_meeting">Meeting Room</string>
-    <string name="fasilitas_meeting_desc">Ruang meeting eksklusif dengan kapasitas 20 orang. Disertai whiteboard, projector, dan WiFi unlimited.</string>
+    <string name="fasilitas_meeting_desc">Ruang meeting eksklusif dengan kapasitas 20 orang.</string>
     <string name="fasilitas_meeting_price">Rp 300.000/jam</string>
 
-    <!-- Button & Action -->
-    <string name="btn_cek_detail">Cek Detail</string>
-    <string name="btn_pesan">Pesan Sekarang</string>
+    <!-- Buttons & Actions -->
+    <string name="btn_cek_detail">View Detail</string>
+    <string name="btn_pesan">Book Now</string>
+    <string name="btn_view_detail">View Details</string>
+    <string name="btn_review">Write Review</string>
+    <string name="btn_rebook">Book Again</string>
+
+    <!-- Empty States -->
+    <string name="empty_facilities">No facilities available</string>
+    <string name="empty_facilities_desc">Check back later for new spaces</string>
+    <string name="empty_chat">No conversations yet</string>
+    <string name="empty_chat_desc">Start chatting with our admin team</string>
+    <string name="empty_history">No booking history</string>
+    <string name="empty_history_desc">Your completed bookings will appear here</string>
+    <string name="empty_search">No results found</string>
+    <string name="loading_message">Loading…</string>
 
     <!-- Bottom Navigation -->
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Explore</string>
     <string name="menu_chat">Chat</string>
     <string name="menu_history">History</string>
     <string name="menu_profile">Profile</string>
@@ -43,10 +126,47 @@
     <!-- Register -->
     <string name="register_title">Daftar Akun Baru</string>
     <string name="nama_hint">Nama Lengkap</string>
-    <string name="email_hint">Email</string>
+    <string name="register_email_hint">Email</string>
     <string name="telepon_hint">Nomor Telepon</string>
     <string name="password_confirm_hint">Konfirmasi Password</string>
     <string name="gender_label">Jenis Kelamin</string>
-    <string name="btn_register">DAFTAR</string>
+    <string name="btn_register_label">DAFTAR</string>
     <string name="back_to_login">Sudah punya akun? Masuk di sini</string>
+
+    <!-- Home Fragment -->
+    <string name="welcome_title">Welcome</string>
+    <string name="username_label">Username</string>
+    <string name="daftar_fasilitas">Daftar Fasilitas</string>
+
+    <!-- Profile -->
+    <string name="profile_section_account">Account Settings</string>
+    <string name="profile_section_support">Support &amp; Legal</string>
+    <string name="profile_personal_info">Personal Information</string>
+    <string name="profile_login_security">Login &amp; Security</string>
+    <string name="profile_payments">Payments &amp; Payouts</string>
+    <string name="profile_help_center">Help Center</string>
+    <string name="profile_terms">Terms of Service</string>
+    <string name="profile_privacy">Privacy Policy</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_language">Language</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_bookings">Bookings</string>
+    <string name="profile_reviews">Reviews</string>
+    <string name="profile_membership">Membership</string>
+    <string name="profile_version">Version 1.0.0</string>
+
+    <!-- Messages -->
+    <string name="msg_login_success">Anda berhasil login!</string>
+    <string name="msg_login_failed">Email atau Password salah!</string>
+    <string name="msg_registration_success">Registrasi berhasil! Selamat datang, %1$s</string>
+    <string name="msg_password_mismatch">Password dan konfirmasi tidak sama!</string>
+    <string name="msg_empty_field">Data tidak boleh kosong!</string>
+    <string name="msg_select_date">Please select a date</string>
+    <string name="msg_select_duration">Please select a duration</string>
+
+    <!-- Validation -->
+    <string name="validation_email_empty">Email tidak boleh kosong!</string>
+    <string name="validation_password_empty">Password tidak boleh kosong!</string>
+    <string name="validation_email_invalid">Format email tidak valid!</string>
 </resources>
